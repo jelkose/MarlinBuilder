@@ -44,6 +44,7 @@ jobs:
         - V1CNC_SkrPro_DualLR_2209
         - V1CNC_SkrPro_Dual_2209
         - V1ZXY_SkrPro_2209
+        - V1CNC_SkrPro_5160
 
     steps:
 
