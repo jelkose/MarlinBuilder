@@ -14,8 +14,8 @@ opt_set E5_DRIVER_TYPE "TMC5160"
 opt_disable Z3_DRIVER_TYPE E2_DRIVER_TYPE E3_DRIVER_TYPE E4_DRIVER_TYPE E5_DRIVER_TYPE
 
 # Endstop options (Z set in cnc-config)
-opt_set X_MIN_ENDSTOP_INVERTING "true"
-opt_set Y_MIN_ENDSTOP_INVERTING "true"
+#opt_set X_MIN_ENDSTOP_INVERTING "true"
+#opt_set Y_MIN_ENDSTOP_INVERTING "true"
 
 # These are really TMC2209 values, but for CNC machines
 #opt_set HOLD_MULTIPLIER 0.8
@@ -29,7 +29,8 @@ opt_set Y_MIN_ENDSTOP_INVERTING "true"
 opt_enable \
     MONITOR_DRIVER_STATUS \
     SQUARE_WAVE_STEPPING \
-    TMC_DEBUG
+    TMC_DEBUG \
+	TMC_USE_SW_SPI 
 
 opt_disable \
     STEALTHCHOP_XY \
