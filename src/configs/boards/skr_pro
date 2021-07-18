@@ -10,8 +10,8 @@ opt_set DEFAULT_AXIS_STEPS_PER_UNIT "{ 100, 100, 400, 100 }"
 opt_add SPINDLE_LASER_ENA_PIN PC4 // Located on the IO expansion port J46 / pin 8
 # Hardware PWN for laser intensity / spindle speed control
 opt_add SPINDLE_LASER_PWM_PIN PC9 // Located on the IO expansion port J46 / pin 4
-# Enable Spindle / Laser by pulling PC4 to LOW
-opt_add SPINDLE_LASER_ACTIVE_STATE LOW
+# Enable Spindle / Laser by pulling PC4 to LOW???
+opt_add SPINDLE_LASER_ACTIVE_STATE HIGH
 
 
 
