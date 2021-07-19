@@ -1,5 +1,5 @@
 
-opt_set SPINDLE_LASER_ACTIVE_STATE    HIGH
+#opt_set SPINDLE_LASER_ACTIVE_STATE    HIGH
 
 
 opt_enable \

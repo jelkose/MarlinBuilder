@@ -14,7 +14,7 @@ $CFGDIR/accessories/tmc5160
 $CFGDIR/accessories/reprap_discount_full_graphic_lcd
 #$CFGDIR/accessories/no-dual-endstops
 $CFGDIR/accessories/sensorless-homing
-$CFGDIR/accessories/laser-32bit
+#$CFGDIR/accessories/laser-32bit
 $CFGDIR/accessories/lcd35
 
 opt_set X_DRIVER_TYPE  "TMC5160"
