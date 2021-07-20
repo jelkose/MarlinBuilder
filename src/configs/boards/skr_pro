@@ -5,6 +5,9 @@ opt_set SERIAL_PORT_2 -1
 
 opt_set DEFAULT_AXIS_STEPS_PER_UNIT "{ 100, 100, 400, 100 }"
 
+opt_enable \
+    SPINDLE_FEATURE
+
 # For switching laser / spindle with a relay board
 opt_add SPINDLE_LASER_ENA_PIN "PC4" // Located on the IO expansion port J46 / pin 8
 # Hardware PWN for laser intensity / spindle speed control
