@@ -8,6 +8,9 @@ opt_set X_HOME_DIR -1
 opt_set Y_HOME_DIR 1
 opt_set Z_HOME_DIR -1
 
+opt_set X_CURRENT_HOME 500
+opt_set Y_CURRENT_HOME 500
+
 opt_enable SENSORLESS_HOMING \
 	USE_YMAX_PLUG
 
