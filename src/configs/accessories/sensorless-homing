@@ -1,7 +1,7 @@
 # required for setting sensorless_homing
 opt_set X_MIN_ENDSTOP_INVERTING "true"
-#opt_set Y_MIN_ENDSTOP_INVERTING "true"
-opt_set Y_MAX_ENDSTOP_INVERTING "true"
+opt_set Y_MIN_ENDSTOP_INVERTING "true"
+#opt_set Y_MAX_ENDSTOP_INVERTING "true"
 opt_set Z_MIN_ENDSTOP_INVERTING "true"
 
 opt_set X_HOME_DIR -1
