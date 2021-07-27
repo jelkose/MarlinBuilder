@@ -40,7 +40,6 @@ opt_enable \
 
 opt_disable \
     MIN_SOFTWARE_ENDSTOP_Z \
-    MAX_SOFTWARE_ENDSTOPS \
     MIN_ARC_SEGMENTS 
     
 # Write some useful tidbits to the readme.
