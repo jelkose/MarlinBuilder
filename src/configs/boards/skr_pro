@@ -2,6 +2,10 @@ opt_set MOTHERBOARD "BOARD_BTT_SKR_PRO_V1_2"
 
 opt_set SERIAL_PORT 1
 opt_set SERIAL_PORT_2 -1
+opt_set SERIAL_PORT_3 6
+
+opt_set SDCARD_CONNECTION ONBOARD
+
 
 opt_set DEFAULT_AXIS_STEPS_PER_UNIT "{ 100, 100, 800, 100 }"
 
@@ -14,7 +18,6 @@ opt_add SPINDLE_LASER_ENA_PIN "PC4" // Located on the IO expansion port J46 / pi
 opt_add SPINDLE_LASER_PWM_PIN "PC9" // Located on the IO expansion port J46 / pin 4
 # Enable Spindle / Laser by pulling PC4 to LOW
 opt_add SPINDLE_LASER_ACTIVE_STATE "LOW"
-
 
 
 pushd Marlin/src/HAL
