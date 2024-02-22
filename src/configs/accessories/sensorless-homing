@@ -1,6 +1,9 @@
 # required for setting sensorless_homing
 opt_set X_MIN_ENDSTOP_HIT_STATE LOW
 opt_set Y_MIN_ENDSTOP_HIT_STATE LOW
+opt_set X_MIN_ENDSTOP_INVERTING true
+opt_set Y_MIN_ENDSTOP_INVERTING true
+
 # no Z homing
 #opt_set Z_MIN_ENDSTOP_HIT_STATE LOW
 
