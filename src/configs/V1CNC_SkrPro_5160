@@ -25,4 +25,4 @@ opt_set E0_DRIVER_TYPE  "TMC5160"
 # 24V power supply
 opt_set CHOPPER_TIMING "CHOPPER_DEFAULT_24V"
 
-export PLATFORMIO_ENV=BTT_SKR_PRO_usb_flash_drive
+export PLATFORMIO_ENV=BTT_SKR_PRO #_usb_flash_drive
