@@ -40,7 +40,7 @@ opt_enable \
 
 opt_disable \
     MIN_SOFTWARE_ENDSTOP_Z \
-    MIN_ARC_SEGMENTS 
+    MIN_CIRCLE_SEGMENTS 
     
 # Write some useful tidbits to the readme.
 echo "- Configured for CNC" >> README.md
