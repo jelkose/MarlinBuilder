@@ -8,6 +8,21 @@ opt_set X_MAX_PIN E0_DIAG_PIN
 opt_set Z_MIN_PIN P1_27
 opt_set Z_MAX_PIN P1_00
 
+opt_enable \
+    SPINDLE_FEATURE \
+    SPINDLE_LASER_USE_PWM
+
+# This options can not not defined here, therefor they are defined in pins/pins_BTT_SKR_V1_4_TURBO.h
+# For switching laser / spindle with a relay board
+opt_set SPINDLE_LASER_ENA_PIN P2_04 # Heater 1 Pin (-)
+# Set FAN0 to Dummy PIN (TB) to avoid conflict
+opt_set FAN0_PIN P0_25
+# Hardware PWN for laser intensity / spindle speed control
+opt_set SPINDLE_LASER_PWM_PIN P2_03 # FAN PWM MOS#
+# Enable Spindle / Laser by pulling PC4 to LOW
+opt_set SPINDLE_LASER_ACTIVE_STATE LOW
+
+
 . $CFGDIR/accessories/use-32-microsteps
 
 pushd Marlin/src/HAL
